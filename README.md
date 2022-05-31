@@ -4,4 +4,3 @@
 
 ## Fully Responsive
 
-![Uploading screencapture-localhost-3000-2022-05-31-23_29_03.png…]()

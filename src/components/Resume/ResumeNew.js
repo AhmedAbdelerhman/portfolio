@@ -8,9 +8,9 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "https://cdn.fbsbx.com/v/t59.2708-21/273993441_485130986342563_3649056965548930436_n.pdf/ahmed_3.pdf?_nc_cat=100&ccb=1-7&_nc_sid=0cab14&_nc_ohc=hIrTcoxUISkAX-1Ljqj&_nc_ht=cdn.fbsbx.com&oh=03_AVJMfI3Eths4ImWHRrvnR9CGur2xjflZbqtlNQb3myvcOQ&oe=628FFEC2&dl=1";
+const resumeLink = "https://raw.githubusercontent.com/AhmedAbdelerhman/portfolio/master/src/Assets/ahmed_Abdelrahman_fullStack_(MERN).pdf"
 
+  
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 

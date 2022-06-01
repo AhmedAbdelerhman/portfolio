@@ -2,14 +2,10 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -110,7 +106,7 @@ function NavBar() {
               </Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item className="d-none d-lg-block">
               <NavLink
                 to="/resume"
                 href="/resume"

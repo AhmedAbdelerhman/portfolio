@@ -1,11 +1,14 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
  import cryptoCurrncy from "../../Assets/Projects/cryptocurrncy.png";
  import IEEE from "../../Assets/Projects/ieee.png";
  import SpeeApp from "../../Assets/Projects/speeApp.png";
  import wetherapp from "../../Assets/Projects/wetherapp.png";
+import { Link } from "react-router-dom";
+import pdf from "../../Assets/../Assets/ahmed_Abdelrahman_fullStack_(MERN).pdf";
+
 // import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -62,6 +65,26 @@ function Projects() {
             />
           </Col>
         </Row>
+        <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+            className="d-lg-none"
+          >
+            &nbsp;Download CV
+          </Button>
+
+          <Button
+            variant="primary"
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+            className="d-none d-lg-block mx-auto"
+          >
+            <Link to="/resume"> 
+            &nbsp; Check Resume
+            </Link>
+          </Button>
       </Container>
     </Container>
   );

@@ -4,14 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Button from "react-bootstrap/Button";
-import { AiOutlineDownload } from "react-icons/ai";
 
-import {
-  AiFillGithub,
 
-} from "react-icons/ai";
-import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 function Home() {
   return (
     <section>
